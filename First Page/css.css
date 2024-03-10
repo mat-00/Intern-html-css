@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body {
+  background-color: #e6e6e6;
+  font-size: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.picture img {
+  width: 400px;
+  height: 550px;
+  padding-left: 62px;
+}
+
+.heading {
+  color: black;
+  padding-top: 80px;
+  text-align: center;
+
+}
+
+.container {
+  max-width: 510px;
+  min-width: 324px;
+  margin: 50px auto 0px;
+  background-color: #fff;
+  border: 1px solid #cfcfcf;
+  border-bottom: 3px solid #ccc;
+}
+
+.row {
+  width: 100%;
+  margin: 0 0 1em 0;
+  padding: 0 2.5em;
+}
+
+.row img {
+  width: 100%;
+  height: 70px;
+}
+
+.row.header {
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+  color: #fff;
+}
+
+.row.header img {
+  width: 100%;
+  height: 70px;
+}
+
+
+.btn {
+  /* Your existing button styles */
+  width: 60px;
+  height: 60px;
+  font-size: 1.0625em;
+  display: flex;
+  padding: 1.74em 1.5em;
+  margin: 1.5em 0 0;
+  color: #fff;
+  border: 0;
+  border-radius: 50%;
+  text-transform: uppercase;
+  background-color: #030202;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  align-items: center;
+  position: relative;
+  margin-left: 160px;
+}
+
+
+.btn i {
+  /* Icon styles */
+  color: #fff;
+  font-size: large;
+}
+
+
+form {
+  max-width: 100%;
+  display: contents;
+}
+
+form ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+form input {
+  width: 360px;
+  height: 30px;
+  margin: 5px 0 0.5em 0;
+  border: 1px solid #fffbfb;
+  padding: 6px 10px;
+  color: #f9f1f1;
+  font-size: 1em;
+  box-shadow: 0 0 5px #efe4e4;
+  border-radius: 5px;
+}
+
+@media (max-width: 566px) {
+  .image-container {
+    width: 100%;
+    /* Make each image container take up full width */
+  }
+
+  .image-container:last-child {
+    height: auto;
+    /* Reset height for the last image container */
+  }
+}

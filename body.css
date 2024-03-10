@@ -1,0 +1,259 @@
+body {
+	background-color: #e6e6e6;
+	font-size: 100%;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+}
+
+.image-container {
+	position: relative;
+	width: 100%;
+	max-width: 500px;
+	/* Adjust as needed */
+	margin: 0 auto;
+	/* Center the image */
+	margin-bottom: -20;
+	/* Add some space between images */
+}
+
+.image-container img {
+	width: 100%;
+	height: auto;
+	display: block;
+
+}
+
+.content-container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0, 0, 0, 0.5);
+	/* Semi-transparent background for better readability */
+	color: #fff;
+	text-align: center;
+	opacity: 1;
+	/* Hide by default */
+	transition: opacity 0.3s ease;
+}
+
+
+
+.button-container {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	/* Adjust left position to align with the image */
+	width: calc(100% - 20px);
+	/* Adjust width to account for left padding */
+	display: flex;
+	justify-content: space-between;
+	opacity: 1;
+	/* Ensure button container is always visible */
+}
+
+
+.button {
+	padding: 10px 10px;
+	background-color: #ffffff;
+	color: #000;
+	border: 1px solid #bebdbd;
+	/* Add border */
+	box-shadow: 0 1px 1px rgba(216, 215, 215, 0.2);
+	/* Add shadow */
+	cursor: pointer;
+	font-size: 14px;
+	border-radius: 50%;
+	/* Add round border */
+	position: absolute;
+	/* Position absolutely */
+	top: 1px;
+	/* Adjust top position */
+	left: 10px;
+	/* Adjust right position */
+	z-index: 1;
+	/* Ensure buttons are above : 1; the image */
+	opacity: 1;
+}
+
+.button2 {
+	float: right;
+	padding: 10px 10px;
+	background-color: #ffffff;
+	color: #000;
+	border: 1px solid #bebdbd;
+	/* Add border */
+	box-shadow: 0 1px 1px rgba(216, 215, 215, 0.2);
+	/* Add shadow */
+	cursor: pointer;
+	font-size: 14px;
+	border-radius: 50%;
+	/* Add round border */
+	position: absolute;
+	/* Position absolutely */
+	top: 1px;
+	/* Adjust top position */
+	left: 10px;
+	/* Adjust right position */
+	z-index: 1;
+	/* Ensure buttons are above : 1; the image */
+	opacity: 1;
+}
+
+/* Flex container for the images */
+.image-flex-container {
+	display: flex;
+	flex-direction: column;
+	/* Arrange images in a column */
+}
+
+.custom-textbox {
+	background-color: #f9f8f8;
+	/* Background color */
+	border: 1px solid #ccc;
+	/* Border */
+	border-radius: 15px;
+	/* Border radius */
+	padding: 10px;
+	/* Padding */
+	width: 450px;
+	height: 100px;
+	/* Width of the textbox */
+	margin: 8px auto 0;
+	/* Center the textbox */
+	font-size: 16px;
+	/* Font size */
+	color: #333;
+	margin-bottom: 8px;
+	/* Text color */
+}
+
+.number-container {
+	font-weight: bold;
+	/* Make the text bold */
+	font-size: 24px;
+	/* Set font size */
+	padding: 10px;
+	margin-left: 30px;
+	/* Add padding around the number */
+	/* Make the container inline-block to fit the content */
+}
+
+.number-container span {
+	margin-right: 38px;
+
+	/* Add space between numbers */
+}
+
+.text-container span {
+	color: rgb(11, 0, 0);
+	/* Change text color */
+	margin-right: 38px;
+	font-size: 1;
+	font-stretch: narrower;
+
+	/* Make text italic */
+}
+
+
+
+.food-container {
+
+	/* Make the text bold */
+	font-size: 14px;
+	/* Set font size */
+	display: flex;
+	/* Use flexbox for layout */
+	justify-content: center;
+	/* Center align horizontally */
+	align-items: center;
+	margin-bottom: 00px;
+	/* Center align vertically */
+}
+
+
+
+.item-container {
+	font-size: 12px;
+	/* Set font size */
+	margin-bottom: 77px;
+	/* Add margin to the top */
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	background-color: #f6f5f5;
+	/* Background color for the footer */
+	color: #fff;
+	/* Text color */
+	padding: 20px;
+	/* Padding */
+	margin-top: 20px;
+	text-align: center;
+	border-radius: 15px;
+	align-items: center;
+	/* Center align text */
+}
+
+.footer img {
+	height: 20px;
+
+	/* Set height of images */
+	width: 200px;
+	/* Maintain aspect ratio */
+
+	/* Add space between images */
+	/* Add space between images */
+}
+
+.f-container {
+	width: 84px;
+	display: flex;
+	/* Use flexbox for layout */
+	justify-content: center;
+	/* Center align horizontally */
+	align-items: center;
+	margin-bottom: 0px;
+	/* Center align vertically */
+	background-color: rgb(4, 183, 4);
+	border-radius: 30px;
+	/* Rounded corners */
+	height: 10px;
+	padding: 10px;
+	margin-top: 20px;
+	align-items: center;
+	/* Padding 
+}
+
+.f-container span {
+
+	display: block;
+	/* Make the text a block element */
+	text-align: center;
+	/* Center align the text */
+	margin-top: 10px;
+	/* Add margin to separate the text from the image */
+	font-weight: bold;
+	/* Make the text bold (optional) */
+}
+
+
+
+/* Make the container inline-block to fit the content */
+
+/* Media query for screens up to 566px wide */
+@media (max-width: 566px) {
+	.image-container {
+		width: 100%;
+		/* Make each image container take up full width */
+	}
+
+	.image-container:last-child {
+		height: auto;
+		/* Reset height for the last image container */
+	}
+}
